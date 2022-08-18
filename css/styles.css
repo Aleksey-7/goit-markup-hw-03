@@ -1,0 +1,222 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2F303A;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Хедер сторінки */
+
+.logo {
+  font-family: 'Raleway';
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+.site-nav,
+.contacts,
+.feature-list,
+.work-list,
+.stuff-list,
+.filter-list,
+.gallery-list {
+  list-style: none;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.07;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контент головної сторінки */
+
+/* секція Герой */
+
+.hero {
+  background-color: var(--secondary-bg-color);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+  border-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Стиль заголовків секції */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+/* секція Наші переваги */
+
+.feature .section-title {
+  visibility: hidden;
+}
+
+.feature-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+}
+
+/* секція Наша команда */
+
+.stuff {
+  background-color: #F5F4FA;
+}
+
+.stuff-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.stuff-list .text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Контент сторінки портфоліо */
+
+.gallery-title {
+  visibility: hidden;
+}
+
+.gallery-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  border-style: none;
+  cursor: pointer;
+}
+
+.filter-list .gallery-btn.current {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+.gallery-btn:hover,
+.gallery-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+.gallery-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.gallery-link .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.gallery-link .text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Футер сторінки */
+
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.footer .logo {
+  color: var(--secondary-text-color);
+}
+
+.footer-text,
+.footer .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
