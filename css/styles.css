@@ -5,6 +5,7 @@
   --accent-color: #2196F3;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2F303A;
+  --text-font-bold: 700;
 }
 
 body {
@@ -13,12 +14,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Хедер сторінки */
 
 .logo {
   font-family: 'Raleway';
   text-decoration: none;
-  font-weight: 700;
+  font-weight: var(--text-font-bold);
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
@@ -26,18 +31,8 @@ body {
   list-style: none;
 }
 
-.logo span {
+.logo-blue {
   color: var(--accent-color);
-}
-
-.site-nav,
-.contacts,
-.feature-list,
-.work-list,
-.stuff-list,
-.filter-list,
-.gallery-list {
-  list-style: none;
 }
 
 .link {
@@ -84,7 +79,7 @@ body {
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
   border-style: none;
-  font-weight: 700;
+  font-weight: var(--text-font-bold);
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
@@ -95,7 +90,7 @@ body {
 /* Стиль заголовків секції */
 
 .section-title {
-  font-weight: 700;
+  font-weight: var(--text-font-bold);
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -110,7 +105,7 @@ body {
 }
 
 .feature-list .title {
-  font-weight: 700;
+  font-weight: var(--text-font-bold);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -129,6 +124,10 @@ body {
 
 .stuff {
   background-color: #F5F4FA;
+}
+
+.stuff-item {
+  background-color: var(--primary-bg-color);
 }
 
 .stuff-list .title {
@@ -178,7 +177,7 @@ body {
 }
 
 .gallery-link .title {
-  font-weight: 700;
+  font-weight: var(--text-font-bold);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
