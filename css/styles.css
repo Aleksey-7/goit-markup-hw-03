@@ -188,6 +188,10 @@ img {
   color: var(--secondary-text-color);
 }
 
+.hero-title .span {
+  display: block;
+}
+
 .hero-btn {
   padding: 10px 32px;
   border-style: none;
